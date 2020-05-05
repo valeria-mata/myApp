@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-button color="secondary" (click)="toOnboarding()">Secondary</ion-button>
+    <ion-button color="secondary" (click)="activeReceptor()">publicar</ion-button>
+
+    <ion-input type="text" [(ngModel)]="addres"></ion-input>
+
+    <ion-button color="secondary" (click)="readData()">service</ion-button>
+    <ion-button color="secondary" (click)="bound()">vincular</ion-button>
+    <ion-button color="secondary" (click)="conecta()">conecta</ion-button>
+    <ion-button color="secondary" (click)="stop()">StopScan</ion-button>
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+</ion-content>
